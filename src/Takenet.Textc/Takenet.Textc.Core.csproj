@@ -3,9 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Product>Takenet.Textc</Product>
-    <Copyright>Copyright ©  2015 Take.net</Copyright>
+    <Copyright>Copyright ©  2015 Take.net, 2020 Axaprj</Copyright>
     <RootNamespace>Takenet.Textc</RootNamespace>
-    <Version>0.2.28</Version>
+    <Version>0.2.29</Version>
+    <Description>Text command parsing library. 
+.Net Core port with backwards-compatible extentions.</Description>
+    <PackageReleaseNotes>Backwards-compatible extentions added</PackageReleaseNotes>
+    <PackageTags>text natural-language processing</PackageTags>
+    <PackageProjectUrl>https://github.com/Axaprj/textc-csharp</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Axaprj/textc-csharp/blob/axaprj/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
