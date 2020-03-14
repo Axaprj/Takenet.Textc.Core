@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/Axaprj/textc-csharp/tree/port2core</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Text command parsing library</description>
-    <copyright>Copyright © 2015 Curupira S/A</copyright>
+    <copyright>Copyright © 2015 Curupira S/A, axaprj</copyright>
     <tags>text command natural-language</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="12.0.3" />

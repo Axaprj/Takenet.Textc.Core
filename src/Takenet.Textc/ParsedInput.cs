@@ -58,12 +58,23 @@ namespace Takenet.Textc
                 dynamic dynamicTask = task;
                 object commandOutput = dynamicTask.Result;
 #endif
-
-                await Processor.OutputProcessor.ProcessOutputAsync(
-                    commandOutput,
-                    Expression.Context,
-                    cancellationToken)
-                    .ConfigureAwait(false);
+                var out_proc = Processor.OutputProcessor;
+                if (out_proc is IOutputExpressionProcessor)
+                {
+                    await ((IOutputExpressionProcessor)out_proc).ProcessOutputAsync(
+                        commandOutput,
+                        Expression,
+                        cancellationToken)
+                        .ConfigureAwait(false);
+                }
+                else
+                {
+                    await out_proc.ProcessOutputAsync(
+                        commandOutput,
+                        Expression.Context,
+                        cancellationToken)
+                        .ConfigureAwait(false);
+                }
             }
         }
     }
