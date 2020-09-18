@@ -1,9 +1,7 @@
 # Textc
-### (axaprj backward compatible fixes)
+### axaprj: Net Core v2.1 port with minor backwards-compatible extentions
+### <a href="https://www.nuget.org/packages/Takenet.Textc.Core/" rel="NuHet">![NuGet](https://img.shields.io/nuget/v/Takenet.Textc.svg)</a>
 **Textc** is a natural language processing library that allows developers build text command based applications.
-
-[![Build status](https://ci.appveyor.com/api/projects/status/dd24q1u410h3nrct?svg=true)](https://ci.appveyor.com/project/Take/textc-csharp) <a href="https://www.nuget.org/packages/Takenet.Textc" rel="NuHet">![NuGet](https://img.shields.io/nuget/v/Takenet.Textc.svg)</a>
-
 
 ## How it works
 
